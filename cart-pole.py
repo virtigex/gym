@@ -104,7 +104,7 @@ if do_all:
     model.save('cart-pole.model')
 else:
     model = make_nn(input_size=4)
-    model.load('cart-pole-save.model')
+    model.load('models/cart-pole-save.model')
 
 scores = []
 choices = []
